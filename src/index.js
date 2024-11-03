@@ -20,4 +20,4 @@ setInterval(function () {
   berlinTimeElement.innerHTML = berlinTime.format(
     "h:mm:ss [<small>]A[</small>]"
   );
-}, 1);
+}, 1000);
