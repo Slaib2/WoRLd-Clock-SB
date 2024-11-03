@@ -18,6 +18,6 @@ setInterval(function () {
   let berlinTime = moment().tz("Europe/Berlin");
   berlinDateElement.innerHTML = berlinTime.format("dddd MMMM Do YYYY");
   berlinTimeElement.innerHTML = berlinTime.format(
-    "h:mm:ss:SS [<small>]A[</small>]"
+    "h:mm:ss [<small>]A[</small>]"
   );
 }, 1);
