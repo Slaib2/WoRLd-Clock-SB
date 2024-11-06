@@ -24,6 +24,8 @@ select {
   font-size: 14px;
   border-radius: 4px;
   padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: gray;
 }
 
 .container {
@@ -40,7 +42,7 @@ select {
   margin: 12px 0;
   justify-content: space-between;
   padding: 28px 0;
-  border-bottom: 1px dotted aliceblue;
+  border-bottom: 2px dotted aliceblue;
 }
 
 .date {
@@ -63,3 +65,4 @@ select {
   vertical-align: middle;
   line-height: 48px;
 }
+.city :end{border: none;}
