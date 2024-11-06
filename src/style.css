@@ -19,7 +19,7 @@ h2 {
   line-height: 2;
 }
 select {
-  display: block;
+  display:block;
   width: 100%;
   font-size: 14px;
   border-radius: 4px;
@@ -52,6 +52,11 @@ select {
   font-size: 48px;
   font-weight: bolder;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.time small {
+  font-size: 24px;
+  vertical-align: middle;
+  line-height: 48px;
 }
 .time small {
   font-size: 24px;
