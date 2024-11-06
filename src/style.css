@@ -21,15 +21,17 @@ select {
   padding: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: gray;
+  height: auto;
 }
 
 .container {
   max-width: 600px;
-  margin: 60px auto;
+  margin: 40px auto;
   background:lightslategray;
   padding: 40px;
   box-shadow: bisque;
   border-radius: 12px;
+  max-height: 600px;
 }
 
 .city {
@@ -37,7 +39,7 @@ select {
   margin: 12px 0;
   justify-content: space-between;
   padding: 28px 0;
-  border-bottom: 2px dotted aliceblue;
+  border-bottom: 1px solid aliceblue;
 }
 
 .date {
@@ -63,6 +65,7 @@ select {
 }
 footer{text-align: center;
 color: black;
-font-size: 12px;
+font-size: 16px;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
 .city:last-child{ border: none;}
